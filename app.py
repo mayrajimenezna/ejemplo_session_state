@@ -6,7 +6,7 @@ if 'count' not in st.session_state:
 
 if st.button('Click me'):
   st.session_state['count'] += 1
-st.write(st.session_state)
+
 
 
 
@@ -16,4 +16,6 @@ nombre = st.text_input("Escribe tu nombre")
 st.write(nombre)
 if nombre:
   st.session_state["name"] = nombre
+
+st.write(st.session_state)
  
