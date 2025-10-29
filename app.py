@@ -14,5 +14,5 @@ st.write(nombre)
 if 'name' not in st.session_state:
   st.session_state['name']= 'nombre'
   if nombre:
-    st.write(nombre)
+    st.session_state["name"] = nombre
  
