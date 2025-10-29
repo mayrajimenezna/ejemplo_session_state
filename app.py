@@ -9,5 +9,6 @@ if st.button('Click me'):
 st.write(st.session_state)
 if 'name' not in st.session_state:
   st.session_state['name']=''
+  key='name'
 nombre = st.text_input("Escribe tu nombre")
 st.write(nombre)
