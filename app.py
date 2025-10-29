@@ -10,5 +10,3 @@ st.write(st.session_state)
 
 nombre = st.text_input("Escribe tu nombre")
 st.write(nombre)
-
-st.write(st.session_state)
